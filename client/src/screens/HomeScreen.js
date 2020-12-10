@@ -10,7 +10,7 @@ class HomeScreen extends Component {
                 <h1>Latest Products</h1>
                 <Row>
                     {products.map(item => (
-                        <Col sm={12} md={6} lg={4} xl={3}>
+                        <Col key={item._id} sm={12} md={6} lg={4} xl={3}>
                             <Product item={item}/>
                         </Col>
                     ))}
