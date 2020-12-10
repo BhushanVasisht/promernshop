@@ -2,36 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53991cb0-2b90-4e4c-8b46-2f91a7f818cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -50,11 +43,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -80,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607609057347</updated>
-      <workItem from="1607609058548" duration="1946000" />
+      <workItem from="1607609058548" duration="4422000" />
     </task>
     <servers />
   </component>
@@ -95,21 +90,29 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616234639" />
-    <state width="1419" height="228" key="GridCell.Tab.0.bottom" timestamp="1607616138234">
+    <state width="1419" height="228" key="GridCell.Tab.0.bottom" timestamp="1607618824837">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138234" />
-    <state width="1419" height="228" key="GridCell.Tab.0.center" timestamp="1607616138233">
+    <state width="1419" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824837" />
+    <state width="1419" height="228" key="GridCell.Tab.0.center" timestamp="1607618824835">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.center/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138233" />
-    <state width="1419" height="228" key="GridCell.Tab.0.left" timestamp="1607616138229">
+    <state width="1419" height="228" key="GridCell.Tab.0.center/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824835" />
+    <state width="1419" height="228" key="GridCell.Tab.0.left" timestamp="1607618824834">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.left/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138229" />
-    <state width="1419" height="228" key="GridCell.Tab.0.right" timestamp="1607616138234">
+    <state width="1419" height="228" key="GridCell.Tab.0.left/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824834" />
+    <state width="1419" height="228" key="GridCell.Tab.0.right" timestamp="1607618824836">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.right/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138234" />
+    <state width="1419" height="228" key="GridCell.Tab.0.right/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824836" />
+    <state x="229" y="98" key="SettingsEditor" timestamp="1607617580449">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="229" y="98" key="SettingsEditor/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607617580449" />
   </component>
 </project>
