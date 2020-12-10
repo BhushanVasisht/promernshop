@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53991cb0-2b90-4e4c-8b46-2f91a7f818cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/airpods.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/alexa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/camera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/playstation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/routes/Models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/routes/getH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/routes/sequelize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,6 +62,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -75,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607609057347</updated>
-      <workItem from="1607609058548" duration="4422000" />
+      <workItem from="1607609058548" duration="8959000" />
     </task>
     <servers />
   </component>
@@ -90,26 +105,26 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616234639" />
-    <state width="1419" height="228" key="GridCell.Tab.0.bottom" timestamp="1607618824837">
+    <state width="1419" height="228" key="GridCell.Tab.0.bottom" timestamp="1607621702289">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138234" />
-    <state width="1419" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824837" />
-    <state width="1419" height="228" key="GridCell.Tab.0.center" timestamp="1607618824835">
+    <state width="1419" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607621702289" />
+    <state width="1419" height="228" key="GridCell.Tab.0.center" timestamp="1607621702285">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.center/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138233" />
-    <state width="1419" height="228" key="GridCell.Tab.0.center/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824835" />
-    <state width="1419" height="228" key="GridCell.Tab.0.left" timestamp="1607618824834">
+    <state width="1419" height="228" key="GridCell.Tab.0.center/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607621702285" />
+    <state width="1419" height="228" key="GridCell.Tab.0.left" timestamp="1607621702284">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.left/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138229" />
-    <state width="1419" height="228" key="GridCell.Tab.0.left/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824834" />
-    <state width="1419" height="228" key="GridCell.Tab.0.right" timestamp="1607618824836">
+    <state width="1419" height="228" key="GridCell.Tab.0.left/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607621702284" />
+    <state width="1419" height="228" key="GridCell.Tab.0.right" timestamp="1607621702286">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1419" height="228" key="GridCell.Tab.0.right/0.25.1440.875/-272.-1055.1920.1055@0.25.1440.875" timestamp="1607616138234" />
-    <state width="1419" height="228" key="GridCell.Tab.0.right/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607618824836" />
+    <state width="1419" height="228" key="GridCell.Tab.0.right/0.25.1440.875/1440.-429.1920.1055@0.25.1440.875" timestamp="1607621702286" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1607617580449">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

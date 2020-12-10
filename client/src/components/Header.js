@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Nav, Navbar, Container} from "react-bootstrap";
 
 class Header extends Component {
+
     render() {
         return (
             <header>
