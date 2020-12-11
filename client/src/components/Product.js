@@ -3,6 +3,7 @@ import Rating from './Rating';
 import { Link } from 'react-router-dom';
 
 const Product = ({item}) => {
+
     return (
         <Card className={'my-3 p-3 rounded'}>
             <Link to={`/product/${item._id}`}>

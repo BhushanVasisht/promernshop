@@ -1,77 +1,90 @@
 import { Link } from 'react-router-dom';
 import {Row, Col, Image, ListGroup, Card, Button} from 'react-bootstrap';
 import Rating from "../components/Rating";
-import products from '../products';
+import axios from 'axios';
+import {Component} from "react";
 
-const ProductScreens = ({ match }) => {
+class ProductScreens extends Component{
+    state = {
+        item: {}
+    }
 
-    const item = products.find(p => p._id === match.params.id)
+    componentDidMount() {
+        axios.get(`http://localhost:3000/api/products/${this.props.match.params.id}`)
+            .then(r => {
+                this.setState({'item' : r.data.data})
+            })
+    }
 
-    return (
-        <div>
-            <Link className={'btn btn-light my-3'} to={'/'}>Go Back</Link>
-            <Row>
-                <Col md={6}>
-                    <Image src={item.image} rounded alt={item.name} fluid/>
-                </Col>
+    render(){
+        return (
+            <div>
+                <Link className={'btn btn-light my-3'} to={'/'}>Go Back</Link>
+                <Row>
+                    <Col md={6}>
+                        <Image src={this.state.item.image} rounded alt={this.state.item.name} fluid/>
+                    </Col>
 
-                <Col md={3}>
-                    <ListGroup variant={'flush'}>
-                        <ListGroup.Item>
-                            <h3>{item.name}</h3>
-                        </ListGroup.Item>
-
-                        <ListGroup.Item>
-                            <Rating value={item.rating} text={`${item.numReviews} reviews`}/>
-                        </ListGroup.Item>
-
-                        <ListGroup.Item>
-                            Price: ${item.price}
-                        </ListGroup.Item>
-
-                        <ListGroup.Item>
-                            {item.description}
-                        </ListGroup.Item>
-                    </ListGroup>
-                </Col>
-                <Col md={3}>
-                    <Card>
+                    <Col md={3}>
                         <ListGroup variant={'flush'}>
                             <ListGroup.Item>
-                                <Row>
-                                    <Col>
-                                        Price:
-                                    </Col>
-                                    <Col>
-                                        <strong>${item.price}</strong>
-                                    </Col>
-                                </Row>
+                                <h3>{this.state.item.name}</h3>
                             </ListGroup.Item>
 
                             <ListGroup.Item>
-                                <Row>
-                                    <Col>
-                                        Status:
-                                    </Col>
-                                    <Col>
-                                        {item.countInStock > 0 ? `${item.countInStock} In Stock` : 'Out of Stock'}
-                                    </Col>
-                                </Row>
+                                <Rating value={this.state.item.rating} text={`${this.state.item.numReviews} reviews`}/>
                             </ListGroup.Item>
 
                             <ListGroup.Item>
-                                <Row>
-                                    <Button className={'btn-block'} type={'button'} disabled={item.countInStock === 0}>
-                                        {item.countInStock === 0 ? 'Currently Unavailable' : 'Add To Cart'}
-                                    </Button>
-                                </Row>
+                                Price: ${this.state.item.price}
+                            </ListGroup.Item>
+
+                            <ListGroup.Item>
+                                {this.state.item.description}
                             </ListGroup.Item>
                         </ListGroup>
-                    </Card>
-                </Col>
-            </Row>
-        </div>
-    );
+                    </Col>
+                    <Col md={3}>
+                        <Card>
+                            <ListGroup variant={'flush'}>
+
+                                <ListGroup.Item>
+                                    <Row>
+                                        <Col>
+                                            Price:
+                                        </Col>
+                                        <Col>
+                                            <strong>${this.state.item.price}</strong>
+                                        </Col>
+                                    </Row>
+                                </ListGroup.Item>
+
+                                <ListGroup.Item>
+                                    <Row>
+                                        <Col>
+                                            Status:
+                                        </Col>
+                                        <Col>
+                                            {this.state.item.countInStock > 0 ? `${this.state.item.countInStock} In Stock` : 'Out of Stock'}
+                                        </Col>
+                                    </Row>
+                                </ListGroup.Item>
+
+                                <ListGroup.Item>
+                                    <Row>
+                                        <Button className={'btn-block'} type={'button'} disabled={this.state.item.countInStock === 0}>
+                                            {this.state.item.countInStock === 0 ? 'Currently Unavailable' : 'Add To Cart'}
+                                        </Button>
+                                    </Row>
+                                </ListGroup.Item>
+
+                            </ListGroup>
+                        </Card>
+                    </Col>
+                </Row>
+            </div>
+        );
+    }
 }
 
 export default ProductScreens;
